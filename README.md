@@ -6,12 +6,12 @@ The components of the application are present in Components folder under src dir
 
 All these components are called in **index.js** file.
 
-#External libraries used.
+# External libraries used.
 
 1. To display the header, **material-ui** library has been used
 2. To display the corousal part, **react-bootstrap** library has been used.
 
-#Running the code
+# Running the code
 Navigate to root directory of the project,
 
 1. Run `npm install` to install all the required libraries.

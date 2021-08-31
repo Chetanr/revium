@@ -1,7 +1,10 @@
 const divStyle = {
+  display: "flex",
+  flexDirection: "column",
   width: "800px",
   alignContent: "center",
-  marginLeft: window.innerWidth / 4,
+  justifyContent: "center",
+  marginLeft: window.outerWidth / 4,
 };
 
 export default function Body() {

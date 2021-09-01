@@ -16,3 +16,5 @@ Navigate to root directory of the project,
 
 1. Run `npm install` to install all the required libraries.
 2. Run `npm start`
+
+Time takne to complete the work : 3 hours

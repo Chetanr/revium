@@ -1,7 +1,7 @@
 /*
-This file is mainly used to display the header of the page.
-AppBar, Toolbar and Button components of Material UI has been
-used over here.
+  This file is mainly used to display the header of the page.
+  AppBar, Toolbar and Button components of Material UI has been
+  used over here.
 */
 
 import React from "react";

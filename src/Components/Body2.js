@@ -19,7 +19,7 @@ const BodydivStyle = {
         <div style={divStyle}>
           <h1>Welcome 2</h1>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
+            Lorem2 ipsum2 dolor2 sit amet, consectetur adipiscing elit. Sed eleifend
             massa quis congue ultricies. Pellentesque hendrerit nulla risus, a
             aliquam lacus mattis non. Donec suscipit rhoncus nisl sed gravida.
             Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut sed

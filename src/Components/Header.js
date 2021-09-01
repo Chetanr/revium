@@ -33,13 +33,13 @@ function Header(props) {
       <AppBar className={classes.menuButton} position="static">
         <Toolbar>
           <Button onClick={() => handleButtonClick("/")} variant="h6" color="inherit">
-            Button 1
+            Link 1
           </Button>
           <Button onClick={() => handleButtonClick("/Body2")} variant="h6" color="inherit">
-            Button 2
+            Link 2
           </Button>
           <Button onClick={() => handleButtonClick("/Body3")} variant="h6" color="inherit">
-            Button 3
+            Link 3
           </Button>
         </Toolbar>
       </AppBar>

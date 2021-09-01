@@ -8,8 +8,9 @@ All these components are called in **index.js** file.
 
 # External libraries used.
 
-1. To display the header, **material-ui** library has been used.
-2. To display the corousal part, **react-bootstrap** library has been used.
+1. To display the header, **material-ui** (https://material-ui.com/) library has been used.
+2. To display the corousal part, **react-bootstrap** (https://react-bootstrap.github.io) library has been used.
+3. To implement the routing of the app,, **react-router-dom** (https://reactrouter.com/web/guides/quick-start) has been used.
 
 # Running the code
 Navigate to root directory of the project,
@@ -17,4 +18,4 @@ Navigate to root directory of the project,
 1. Run `npm install` to install all the required libraries.
 2. Run `npm start`.
 
-Time takne to complete the work : 3 hours
+Time takne to complete the work : 3.5 hours

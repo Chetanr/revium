@@ -9,6 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Button from "@material-ui/core/Button";
+import { withRouter } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -19,20 +20,25 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Header() {
+function Header(props) {
+  const { history } = props;
   const classes = useStyles();
+
+  const handleButtonClick = (pageURL) => {
+    history.push(pageURL);
+  };
 
   return (
     <div className={classes.root}>
       <AppBar className={classes.menuButton} position="static">
         <Toolbar>
-          <Button variant="h6" color="inherit">
+          <Button onClick={() => handleButtonClick("/")} variant="h6" color="inherit">
             Button 1
           </Button>
-          <Button variant="h6" color="inherit">
+          <Button onClick={() => handleButtonClick("/Body2")} variant="h6" color="inherit">
             Button 2
           </Button>
-          <Button variant="h6" color="inherit">
+          <Button onClick={() => handleButtonClick("/Body3")} variant="h6" color="inherit">
             Button 3
           </Button>
         </Toolbar>
@@ -40,3 +46,5 @@ export default function Header() {
     </div>
   );
 }
+
+export default withRouter(Header);

@@ -2,14 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Header from "./Components/Header";
 import Carousal from "./Components/Carousal";
-import Body from "./Components/Body";
+import Route from "./Components/Route"
+import { BrowserRouter as Router } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-    <Carousal />
-    <Body />
+    <Router>
+      <Header />
+      <Carousal />
+      <Route/>
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -17,7 +17,7 @@ export default function Body() {
   return (
     <div style={BodydivStyle}>
       <div style={divStyle}>
-        <h1>Welcome</h1>
+        <h1>Welcome 1</h1>
         <div>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
           massa quis congue ultricies. Pellentesque hendrerit nulla risus, a

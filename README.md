@@ -10,7 +10,7 @@ All these components are called in **index.js** file.
 
 1. To display the header, **material-ui** (https://material-ui.com/) library has been used.
 2. To display the corousal part, **react-bootstrap** (https://react-bootstrap.github.io) library has been used.
-3. To implement the routing of the app,, **react-router-dom** (https://reactrouter.com/web/guides/quick-start) has been used.
+3. To implement the routing of the app, **react-router-dom** (https://reactrouter.com/web/guides/quick-start) has been used.
 
 # Running the code
 Navigate to root directory of the project,
